@@ -6,17 +6,24 @@ A Krishnamurthy number is a number whose sum of the factorial of digits is equal
 Examples: 
 
 Input : 145
+
 Output : YES
+
 Explanation: 1! + 4! + 5! = 
 1 + 24 + 120 = 145, which is equal to input,
+
 hence YES.
 
+---------------------------------------------------------------------------------------------------------------------------
 Input : 235
+
 Output : NO
+
 Explanation: 2! + 3! + 5! = 
 2 + 6 + 120 = 128, which is not equal to input, 
-hence NO.
 
+hence NO.
+----------------------------------------------------------------------------------------------------------------------------
 
 The idea is simple, we compute sum of factorials of all digits and then compare the sum with n. 
 
